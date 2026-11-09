@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #183153;
+  background: linear-gradient(135deg, #eaf4ff, #f4fff8);
+}
+.card {
+  width: min(680px, 100%);
+  padding: 40px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(24, 49, 83, 0.12);
+}
+.tag { color: #087f5b; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; }
+h1 { line-height: 1.2; }
+p, li { line-height: 1.7; }
+.status {
+  margin-top: 24px;
+  padding: 12px 16px;
+  color: #075b43;
+  background: #e6fcf5;
+  border-radius: 8px;
+  font-weight: 700;
+}
